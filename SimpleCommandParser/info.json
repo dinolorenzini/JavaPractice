@@ -23,5 +23,5 @@
       "Print \"Correct!\" if the result is correct.",
       "Print \"Incorrect!\" if the result is incorrect."
     ],
-    "file": "commandParserPractice.java"
+    "file": "CP.java"
   }
