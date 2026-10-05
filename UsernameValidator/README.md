@@ -1,0 +1,16 @@
+# Username Validator
+Difficulty: Easy
+## Requirements
+- Accept a String containing a username.
+- Return true if the username is valid.
+- Return false if the username is invalid.
+- The username must be 3–16 characters long, inclusive.
+- The username may only contain letters and numbers.
+- The username must not contain spaces.
+- Use length(), charAt(), and toLowerCase().
+- Check every character in the username.
+- Use if/else logic to check the requirements.
+- Test multiple valid and invalid usernames.
+- Compare the returned boolean against the expected boolean.
+- Print "Correct!" if the result is correct.
+- Print "Incorrect!" if the result is incorrect.
