@@ -1,4 +1,4 @@
-package RandomNumberAnalyzer;
+package RNA;
 
 public class RNA {
     public static void main(String[] args) {
