@@ -1,0 +1,21 @@
+# Tic-Tac-Toe Board Checker
+Difficulty: Hard
+## Requirements
+- Accept a char[][] representing a 3×3 Tic-Tac-Toe board.
+- X and O are the only possible players.
+- Check all 3 rows.
+- Check all 3 columns.
+- Check both diagonals.
+- Determine whether X has won.
+- Determine whether O has won.
+- Return exactly "X wins", "O wins", or "No winner".
+- Use nested for loops where appropriate.
+- Do not hard-code the winner.
+- Test row wins.
+- Test column wins.
+- Test diagonal wins.
+- Test boards with no winner.
+- Independently determine the expected winner in the test code.
+- Use if/else to compare the returned result against the expected result.
+- Print "Correct!" if the result is correct.
+- Print "Incorrect!" if the result is incorrect.
