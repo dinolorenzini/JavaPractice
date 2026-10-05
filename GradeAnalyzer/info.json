@@ -1,0 +1,22 @@
+  {
+    "name": "Grade Analyzer",
+    "difficulty": "Medium",
+    "requirements": [
+      "Accept an int[] containing test scores.",
+      "Calculate the average score.",
+      "Find the highest score.",
+      "Find the lowest score.",
+      "Count how many scores are passing (>= 65).",
+      "Count how many scores are failing (< 65).",
+      "Use an enhanced for loop for at least one calculation.",
+      "Do not hard-code the results.",
+      "Return all information as one formatted String.",
+      "Handle an empty array without crashing.",
+      "Test multiple different arrays.",
+      "Independently calculate the expected results in the test code.",
+      "Use if/else to compare the actual result against the expected result.",
+      "Print \"Correct!\" if the result is correct.",
+      "Print \"Incorrect!\" if the result is incorrect."
+    ],
+    "file": "GA.java"
+  }
