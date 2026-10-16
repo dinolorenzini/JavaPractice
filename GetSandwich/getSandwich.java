@@ -1,4 +1,4 @@
-public class getSandwich() {
+public class getSandwich {
   public static int correct = 0;
   public static int incorrect = 0;
 /**
@@ -25,9 +25,36 @@ public class getSandwich() {
   public static void main(String[] args) {
     System.out.println("Java Practice | github.com/dinolorenzini/JavaPractice");
     tester("webreadyonthisbread", "yonthis");
-    if (!getSandwich("webreadyonthisbread").equals("yonthis")) {
-      incorrect++;
-      System.out.println(
+    tester("xxbreadjambreadyy", "jam");
+    tester("breadjambread", "jam");
+    tester("breadjam", "");
+    tester("breadbread", "");
+    tester("breadpeanut butterbread", "peanut butter");
+    tester("breadonebreadtwobread", "one");
+    tester("nothing here", "");
+    tester("BreadjamBread", "");
+    tester("bread123bread", "123");
+    tester("bread!@#$%bread", "!@#$%");
+    tester("breadhello worldbread", "hello world");
+    tester("xxbreadbreadyy", "");
+    tester("breadabread", "a");
+    tester("breadbreadbread", "");
+    tester("breadonebreadbreadtwo", "one");
+    tester("breadonebreadtwo", "one");
+    tester("breadbreadonebread", "");
+    tester("BREADjamBREAD", "");
+    tester("breadJamBread", "");
+    tester("breadjamBREAD", "");
+    tester("Breadbreadjam bread", "");
+    tester("bread  bread", "  ");
+    tester("bread\nbread", "\n");
+    tester("", "");
+    tester("bread", "");
+    tester("breadbreadbreadbread", "");
+    tester("xxbread123bread456bread789", "123");
+    tester("bread! bread? bread.", "! ");
+    tester("bread 123 bread", " 123 ");
+    System.out.println("getSandwich (Easy) Results:\nCorrect: " + correct + "\nIncorrect: " + incorrect);
   }
     /**
     * Helper function for testing getSandwich()
@@ -35,7 +62,14 @@ public class getSandwich() {
     * @param requiredOutput the string to check for as the returned value
     */
   public static void tester(String testStr, String requiredOutput) {
-    if (!getSandwich(testStr").equals(requiredOutput)) {
-      
+      String response = getSandwich(testStr);
+    if (!response.equals(requiredOutput)) { 
+        System.out.println("Test Failed - \"" + testStr + "\" requires an output of \"" + requiredOutput + "\" but instead it got \"" + response + "\".");
+        incorrect++;
+    } else {
+        correct++;
+    }
+  }
 }
+
     
