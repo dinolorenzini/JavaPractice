@@ -3,6 +3,7 @@ Practice Java easily! For practice problems, I created dinolorenzini/JavaPractic
 
 ## Practices
 * [Random Number Analyzer](https://github.com/dinolorenzini/JavaPractice/tree/main/RandomNumberAnalyzer/) - Easy - 1D Arrays, Math class
+* [Get Sandwich](https://github.com/dinolorenzini/JavaPractice/tree/main/GetSandwich/) - Easy - Strings, Substring, Index - **On an AP Computer Science Test**
 * [Username Validator](https://github.com/dinolorenzini/JavaPractice/tree/main/UsernameValidator/) - Easy - Strings, Loops, Conditionals
 * [Grade Analyzer](https://github.com/dinolorenzini/JavaPractice/tree/main/GradeAnalyzer/) - Medium - 1D Arrays, Enhanced For Loops, Conditionals
 * [Tic-Tac-Toe Board Checker](https://github.com/dinolorenzini/JavaPractice/tree/main/TicTacToeBoardChecker/) - Hard - 2D Arrays, Nested Loops, Conditionals
