@@ -3,7 +3,7 @@
     <br>
     Practice and become one of the best.
     <br>
-    [Home](/) | [Coming Soon](/ComingSoon)
+    <a href="/">Home</a> • <a href="/ComingSoon">Coming Soon</a> • <a href="https://github.com/dinolorenzini/JavaPractice">GitHub</a>
 </div>
 
 # Java Practice
