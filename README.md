@@ -1,11 +1,21 @@
+<div align="center">
+    <img src="assets/JavaPracticeLogo.png" alt="JavaPractice Logo">
+    <br>
+    Practice and become one of the best.
+    <br>
+    [Home](/) | [Coming Soon](/ComingSoon)
+</div>
+
 # Java Practice
-Practice Java easily! For practice problems, I created dinolorenzini/JavaPractice on GitHub so that you can easily clone and practice working with Java. I recommend using JetBrains IntelliJ for this, as it is an exceptional code editor. To work with these practice problems, find the practice you want to do, open the folder and code inside of the methods of your choice. Then, run the file and it will return how many you have correct.
 
-## Practices
-* [Random Number Analyzer](https://github.com/dinolorenzini/JavaPractice/tree/main/RandomNumberAnalyzer/) - Easy - 1D Arrays, Math class
-* [Get Sandwich](https://github.com/dinolorenzini/JavaPractice/tree/main/GetSandwich/) - Easy - Strings, Substring, Index - **On an AP Computer Science Test**
-* [Username Validator](https://github.com/dinolorenzini/JavaPractice/tree/main/UsernameValidator/) - Easy - Strings, Loops, Conditionals
-* [Grade Analyzer](https://github.com/dinolorenzini/JavaPractice/tree/main/GradeAnalyzer/) - Medium - 1D Arrays, Enhanced For Loops, Conditionals
-* [Tic-Tac-Toe Board Checker](https://github.com/dinolorenzini/JavaPractice/tree/main/TicTacToeBoardChecker/) - Hard - 2D Arrays, Nested Loops, Conditionals
-* [Simple Command Parser](https://github.com/dinolorenzini/JavaPractice/tree/main/SimpleCommandParser/) - Hard - Strings, Arrays, Conditionals, Methods
+Java Practice was built as a way to practice Java with varying difficulties in order to expand your knowledge of the language. We try to make the practice problems as realistic as possible.
 
+## All Practices
+
+| Name | Problem | Difficulty |
+| --- | --- | --- |
+| [Get Sandwich](Easy/GetSandwich/) | Get the string surrounded by "bread" | Easy |
+
+## Contribution
+
+Contributions are welcome! You can contribute by submitting new practice problems, improving existing problems, or fixing errors. Simply open an issue if you find a problem with current problems, or open a PR to add new things.
