@@ -1,4 +1,4 @@
-public class SCP
+public class simpleCommandParser
 {
     public static String commandParser(String command)
     {

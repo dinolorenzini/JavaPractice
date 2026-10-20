@@ -1,4 +1,4 @@
-public class RNA
+public class randomNumberAnalyzer
 {
     public static int[] randomNumberAnalyzer()
     {

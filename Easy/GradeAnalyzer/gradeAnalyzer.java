@@ -1,4 +1,4 @@
-public class GA
+public class gradeAnalyzer
 {
     public static String gradeAnalyzer(int[] grades)
     {
