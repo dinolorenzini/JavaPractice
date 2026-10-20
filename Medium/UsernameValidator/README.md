@@ -1,5 +1,5 @@
 # Username Validator
-Difficulty: Easy
+Difficulty: Medium
 ## Requirements
 - Accept a String containing a username.
 - Return true if the username is valid.
