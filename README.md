@@ -14,12 +14,12 @@ Java Practice was built as a way to practice Java with varying difficulties in o
 
 | Name | Problem | Difficulty |
 | :--- | :---: | ---: |
-| [Get Sandwich](/Easy/GetSandwich/) | Get the string surrounded by "bread" | Easy |
-| [Grade Analyzer](/Easy/GradeAnalyzer/) | Analyze test scores for a class | Easy |
-| [Random Number Analyzer](/Easy/RandomNumberAnalyzer/) | Generate 10 random integers in an array from 1 to 100 | Easy |
-| [Username Validator](/Medium/UsernameValidator/) | Check if a username is valid based on requirements | Medium |
-| [Simple Command Parser](/Hard/SimpleCommandParser/) | Simple CLI command line parsing tool | Hard |
-| [Tic-Tac-Toe Board Checker](/Hard/TicTacToeBoardChecker/) | Check a tic-tac-toe board to see who won | Hard |
+| [Get Sandwich](Easy/GetSandwich/) | Get the string surrounded by "bread" | Easy |
+| [Grade Analyzer](Easy/GradeAnalyzer/) | Analyze test scores for a class | Easy |
+| [Random Number Analyzer](Easy/RandomNumberAnalyzer/) | Generate 10 random integers in an array from 1 to 100 | Easy |
+| [Username Validator](Medium/UsernameValidator/) | Check if a username is valid based on requirements | Medium |
+| [Simple Command Parser](Hard/SimpleCommandParser/) | Simple CLI command line parsing tool | Hard |
+| [Tic-Tac-Toe Board Checker](Hard/TicTacToeBoardChecker/) | Check a tic-tac-toe board to see who won | Hard |
 
 
 ## Contribution
