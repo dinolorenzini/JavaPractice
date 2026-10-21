@@ -15,4 +15,10 @@ Possibilites:
 Improve READMEs with more data and graphics
 
 ## Stage 3
-Fix all old shitty java and stuff liek that
+Optimize all of the Java files to work in an easy one-file solution
+
+## Stage 4
+Add TeaVM to the pages and allow for writing solutions right inside of the browser
+
+## Stage 5
+Classroom assignements, dynamically generating answers that only unlock upon completion (?)
