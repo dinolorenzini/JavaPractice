@@ -25,3 +25,6 @@ Java Practice was built as a way to practice Java with varying difficulties in o
 ## Contribution
 
 Contributions are welcome! You can contribute by submitting new practice problems, improving existing problems, or fixing errors. Simply open an issue if you find a problem with current problems, or open a PR to add new things.
+
+### Adding Solutions
+Create a PR with your solution in the `solutions/0` folder is 
