@@ -1,4 +1,5 @@
-# Refactor of codebase
+# Refactor of Codebase
+## Stage 1
 I want to make this a well functioning practice problem testing thingy you can easily work on some easy practice stuff, not as hard as Leetcode. I want to group together everything and have every problem have
 ```
 ~ GetSandwich
@@ -10,3 +11,8 @@ I want to make this a well functioning practice problem testing thingy you can e
 ```
 Possibilites:
 - Group practice problems in folders by difficulty
+## Stage 2
+Improve READMEs with more data and graphics
+
+## Stage 3
+Fix all old shitty java and stuff liek that
