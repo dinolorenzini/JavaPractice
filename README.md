@@ -3,10 +3,13 @@
     <br>
     Practice and become one of the best.
     <br>
-    <a href="/">Home</a> • <a href="/ComingSoon">Coming Soon</a> • <a href="https://github.com/dinolorenzini/JavaPractice">GitHub</a>
+    <a href="/">Home</a> • <a href="/ComingSoon">Coming Soon</a> • <a href="https://github.com/dinolorenzini/JavaPractice">GitHub</a> • <a href="/RefactorPlan">Refactor Plan</a>
 </div>
 
 # Java Practice
+
+> [!NOTE]
+> We are currently working on refactoring the repository and improving the practice so that it aligns for school use and personal home use. We're changing from just being a repository of practice problems to an actual hub for letting you practice.
 
 Java Practice was built as a way to practice Java with varying difficulties in order to expand your knowledge of the language. We try to make the practice problems as realistic as possible.
 
