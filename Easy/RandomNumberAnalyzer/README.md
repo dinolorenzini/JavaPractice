@@ -1,6 +1,7 @@
 # Random Number Analyzer
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
-Generate 10 random integers in an array from 1 to 100
+
+Generate 10 random integers in an array from 1 to 100 - [Solutions](solutions/)
 ## Requirements
 - Generate 10 random integers from 1–100 inclusive and store them in an int[].
 - Return the int[].

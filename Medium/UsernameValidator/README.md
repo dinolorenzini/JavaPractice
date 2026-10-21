@@ -1,6 +1,7 @@
 # Username Validator
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
-Check if a username is valid based on requirements
+
+Check if a username is valid based on requirements - [Solutions](solutions/)
 ## Requirements
 - Accept a String username and return true if valid, false otherwise.
 - Valid usernames are 3–16 characters long, letters and numbers only.

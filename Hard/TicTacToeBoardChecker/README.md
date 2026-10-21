@@ -1,6 +1,7 @@
 # Tic-Tac-Toe Board Checker
 ![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red)
-Check a tic-tac-toe board to see who won
+
+Check a tic-tac-toe board to see who won - [Solutions](solutions/)
 ## Requirements
 - Accept a char[3][3] board containing only 'X', 'O', or ' '.
 - Check all rows, columns, and both diagonals.

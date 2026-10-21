@@ -1,6 +1,7 @@
 # Grade Analyzer
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
-Analyze test scores for a class
+
+Analyze test scores for a class - [Solutions](solutions/)
 ## Requirements
 - Accept an int[] of test scores.
 - Return one formatted String with the average, highest, lowest, passing count (>= 65), and failing count (< 65).

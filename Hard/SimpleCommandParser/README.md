@@ -1,6 +1,7 @@
 # Simple Command Parser
 ![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red)
-Simple CLI command line parsing tool
+
+Simple CLI command line parsing tool - [Solutions](solutions/)
 ## Requirements
 - Accept a String command with arguments, e.g. `"user Bob123"`.
 - The first word is the command; parse it and handle its arguments.

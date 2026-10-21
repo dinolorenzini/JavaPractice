@@ -1,6 +1,7 @@
 # Get Sandwich
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
-Get the string surrounded by "bread"
+
+Get the string surrounded by "bread" - [Solutions](solutions/)
 ## Requirements
 - Return the text between the first two occurrences of `"bread"`.
 - Case-sensitive: `"Bread"` does not count.
