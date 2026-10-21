@@ -4,3 +4,6 @@
 Basic description about problem - [Solutions](solutions/)
 ## Requirements
 - All requirements to be solved
+
+## Examples
+- `example("of question")` -> `here`
