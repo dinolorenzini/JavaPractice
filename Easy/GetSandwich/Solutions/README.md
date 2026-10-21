@@ -3,7 +3,8 @@ These are solutions for the current project you are looking at.
 
 | Solution Author | Link | GitHub |
 | --- | --- | --- |
-| Example | [Solution](example/solution.java) | [exampleauthor](https://github.com/example)
+| dinolorenzini | [Solution](dinolorenzini/Solution.java) | [dinolorenzini](https://github.com/dinolorenzini) |
+| Example | [Solution](example/solution.java) | [exampleauthor](https://github.com/example) |
 
 ## Adding your solutions
 - Create a pull request to the repository that adds your solution
