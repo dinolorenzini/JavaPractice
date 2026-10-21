@@ -1,16 +1,18 @@
 # Username Validator
-Difficulty: Medium
+![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
+Check if a username is valid based on requirements
 ## Requirements
-- Accept a String containing a username.
-- Return true if the username is valid.
-- Return false if the username is invalid.
-- The username must be 3–16 characters long, inclusive.
-- The username may only contain letters and numbers.
-- The username must not contain spaces.
+- Accept a String username and return true if valid, false otherwise.
+- Valid usernames are 3–16 characters long, letters and numbers only.
 - Use length(), charAt(), and toLowerCase().
-- Check every character in the username.
-- Use if/else logic to check the requirements.
-- Test multiple valid and invalid usernames.
-- Compare the returned boolean against the expected boolean.
-- Print "Correct!" if the result is correct.
-- Print "Incorrect!" if the result is incorrect.
+- Do not hard-code the results.
+
+## Examples
+```java
+usernameValidator("Bob123")              // true
+usernameValidator("Bo")                  // false (too short)
+usernameValidator("Bob Smith")           // false (contains a space)
+usernameValidator("Bob!")                // false (contains a symbol)
+usernameValidator("ABCDEFGHIJKLMNOP")    // true (exactly 16 chars)
+usernameValidator("ABCDEFGHIJKLMNOPQ")   // false (17 chars)
+```

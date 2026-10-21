@@ -1,23 +1,23 @@
 # Simple Command Parser
-Difficulty: Hard
+![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red)
+Simple CLI command line parsing tool
 ## Requirements
-- Accept a String containing a command such as "user Bob123".
-- Split the String into individual words.
-- The first word is the command.
-- Use equals() to determine which command was entered.
-- Support "hello" and return "Hello!".
-- Support "add" and add two supplied numbers.
-- Support "reverse" and return the supplied word backwards.
-- Support "user" and return the supplied username.
-- The add command must actually calculate the two numbers.
-- The reverse command must work with words of different lengths.
-- Unknown commands must return "Unknown command".
-- Missing arguments must not crash the program.
-- Invalid numbers must not crash the program.
-- Empty input must not crash the program.
-- Use if/else if/else logic.
-- Test every supported command.
-- Test malformed commands.
-- Compare every returned result against an expected result.
-- Print "Correct!" if the result is correct.
-- Print "Incorrect!" if the result is incorrect.
+- Accept a String command with arguments, e.g. `"user Bob123"`.
+- The first word is the command; parse it and handle its arguments.
+- Supported commands: `hello`, `add <a> <b>`, `reverse <word>`, `user <name>`.
+- Unknown commands return `"Unknown command"`.
+- Malformed or missing arguments return `"Invalid command"`.
+- Never crash on bad input.
+- Do not hard-code the results.
+
+## Examples
+```java
+commandParser("hello")           // "Hello!"
+commandParser("add 5 10")        // "15"
+commandParser("add 100 25")      // "125"
+commandParser("reverse Java")    // "avaJ"
+commandParser("user Bob123")     // "Bob123"
+commandParser("dance")           // "Unknown command"
+commandParser("add 5")           // "Invalid command"
+commandParser("add hello 10")    // "Invalid command"
+```

@@ -1,21 +1,36 @@
 # Tic-Tac-Toe Board Checker
-Difficulty: Hard
+![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red)
+Check a tic-tac-toe board to see who won
 ## Requirements
-- Accept a char[][] representing a 3×3 Tic-Tac-Toe board.
-- X and O are the only possible players.
-- Check all 3 rows.
-- Check all 3 columns.
-- Check both diagonals.
-- Determine whether X has won.
-- Determine whether O has won.
-- Return exactly "X wins", "O wins", or "No winner".
+- Accept a char[3][3] board containing only 'X', 'O', or ' '.
+- Check all rows, columns, and both diagonals.
+- Return exactly `"X wins"`, `"O wins"`, or `"No winner"`.
 - Use nested for loops where appropriate.
 - Do not hard-code the winner.
-- Test row wins.
-- Test column wins.
-- Test diagonal wins.
-- Test boards with no winner.
-- Independently determine the expected winner in the test code.
-- Use if/else to compare the returned result against the expected result.
-- Print "Correct!" if the result is correct.
-- Print "Incorrect!" if the result is incorrect.
+
+## Examples
+```java
+checkBoard(new char[][]{
+    {'X','X','X'},
+    {'O',' ','O'},
+    {' ',' ',' '}
+}); // "X wins"
+
+checkBoard(new char[][]{
+    {'X','O',' '},
+    {'O','X',' '},
+    {' ',' ','X'}
+}); // "X wins" (diagonal)
+
+checkBoard(new char[][]{
+    {'O','X',' '},
+    {'O','X',' '},
+    {'O',' ','X'}
+}); // "O wins" (column)
+
+checkBoard(new char[][]{
+    {'X','O','X'},
+    {'O','X','O'},
+    {'O','X','O'}
+}); // "No winner"
+```

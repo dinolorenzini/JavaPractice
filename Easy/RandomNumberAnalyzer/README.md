@@ -1,15 +1,18 @@
 # Random Number Analyzer
-Difficulty: Easy
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
+Generate 10 random integers in an array from 1 to 100
 ## Requirements
-- Generate 10 random integers from 1–100 inclusive.
-- Store the numbers in an int[].
+- Generate 10 random integers from 1–100 inclusive and store them in an int[].
+- Return the int[].
 - Do not hard-code the generated numbers.
-- Find the minimum.
-- Find the maximum.
-- Calculate the average.
-- Return the generated int[].
-- In main, check that the returned array contains exactly 10 integers.
-- Check that every integer is between 1 and 100 inclusive.
-- Use if/else checks for the validation.
-- Print "Correct!" if all checks pass.
-- Print "Incorrect!" if any check fails.
+- In main, validate that the array has exactly 10 integers, each between 1 and 100.
+- Print "correct" if all checks pass, "incorrect" otherwise.
+
+## Examples
+```java
+int[] nums = randomNumberAnalyzer();
+
+// Example output (random, so values will differ):
+// [42, 7, 91, 13, 68, 100, 1, 55, 30, 84]
+// Array must contain exactly 10 integers, each between 1 and 100.
+```
