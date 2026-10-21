@@ -7,10 +7,6 @@ public class getSandwich {
  * @param str the input string containing zero or more occurrences of "bread"
  * @return the text between the first two occurrences of "bread", or "" if fewer than two exist
  *
- * Examples:
- * getSandwich("xxbreadjambreadyy") returns "jam"
- * getSandwich("breadjambread") returns "jam"
- * getSandwich("breadjam") returns ""
  */
   public static String getSandwich(String str) {
     // Your code here

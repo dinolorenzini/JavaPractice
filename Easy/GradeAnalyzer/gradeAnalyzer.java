@@ -1,5 +1,12 @@
 public class gradeAnalyzer
 {
+    /**
+     * Analyzes grades for a class, stored as an array.
+     * - Calculate for Average, Highest, Lowest, amt passing and amt failing.
+     *
+     * @param integer array int[] grades
+     * @return "Average: 75.0 | Highest: 100 | Lowest: 50 | Passing: 1 | Failing: 1"
+     */
     public static String gradeAnalyzer(int[] grades)
     {
 

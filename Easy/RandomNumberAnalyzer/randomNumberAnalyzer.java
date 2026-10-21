@@ -1,5 +1,13 @@
 public class randomNumberAnalyzer
 {
+    /**
+     * Randomly generate 10 random numbers from 1 to 100 (inclusive)
+     *
+     * 1 <= x <= 100
+     * [1, 100]
+     *
+     * @return 10 randomly generated numbers as an array of ints int[]
+     */
     public static int[] randomNumberAnalyzer()
     {
 
