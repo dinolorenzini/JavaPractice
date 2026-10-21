@@ -41,7 +41,7 @@ public class getSandwich {
     tester("BREADjamBREAD", "");
     tester("breadJamBread", "");
     tester("breadjamBREAD", "");
-    tester("Breadbreadjam bread", "");
+    tester("Breadbreadjam bread", "jam ");
     tester("bread  bread", "  ");
     tester("bread\nbread", "\n");
     tester("", "");
